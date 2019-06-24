@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=7.0.0",
+        "yob/route":"dev-master",
+        "yob/mysql":"dev-master"
+    },
+    "autoload": {
+	    "classmap": [
+	      "app/controllers",
+          "app/models"
+	    ]
+	}
+}

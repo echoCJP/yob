@@ -1,0 +1,78 @@
+[
+    {
+        "name": "yob/mysql",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/echo897960700/mysql.git",
+            "reference": "2e328ecac02d270fd54bc265a98c06d83ced75ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/echo897960700/mysql/zipball/2e328ecac02d270fd54bc265a98c06d83ced75ba",
+            "reference": "2e328ecac02d270fd54bc265a98c06d83ced75ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "time": "2019-06-15T17:13:23+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Yob\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "yob",
+                "email": "897960700@qq.com"
+            }
+        ],
+        "description": "a php-mysql class"
+    },
+    {
+        "name": "yob/route",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/echo897960700/route.git",
+            "reference": "25b2c956cd09a90b62d0e8ca11f616bfca26d788"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/echo897960700/route/zipball/25b2c956cd09a90b62d0e8ca11f616bfca26d788",
+            "reference": "25b2c956cd09a90b62d0e8ca11f616bfca26d788",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "time": "2019-06-03T15:59:28+00:00",
+        "type": "libray",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Yob\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "yob",
+                "email": "897960700@qq.com"
+            }
+        ],
+        "description": "yobphp自定义路由"
+    }
+]
